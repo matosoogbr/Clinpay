@@ -1,0 +1,15 @@
+{
+  "name": "clinpay",
+  "version": "1.0.0",
+  "description": "ClinPay — agenda de consultas e cirurgias, pacientes, termos assinados, financeiro e lembretes por e-mail",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/api.test.js test/email.test.js test/clinpay.test.js test/tenant.test.js test/features.test.js test/ai.test.js test/persist.test.js test/dre.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
